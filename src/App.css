@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.cabecalho h1, .cabecalho h2 {
+    text-align: center;
+}
+
+.recent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.logos-canais {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.logo-canal {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.cabecalho h1, .cabecalho h2 {
+  text-align: center;
+}
+
+.recent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.logos-canais {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.logo-canal {
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  height: 180%;
+}
+
+.sidebar {
+  background-color: rgb(202, 91, 50);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  width: 150%;
+  background: url(/background.jpg);
+}
+
+.content-overlay {
+  background: linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25));
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+
+.cabecalho {
+  margin-top: 30px;
+}
+
+.conteudo {
+  margin-top: 25%;
+}
+
+h1, h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.canais {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
